@@ -1,9 +1,9 @@
 import { TypeAnimation } from 'react-type-animation'
-import { Wrapper } from "react-type-animation"
 import GraphemeSplitter from 'grapheme-splitter'
 
 interface Props {
-    wrapper: Wrapper;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    wrapper: any;
     classyName: string;
 }
 

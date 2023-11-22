@@ -6,9 +6,22 @@
 body {
   font-family: 'Text Me One', sans-serif;
   background-color: #230959;
-  color: #ffffff;
+  color: #D2CDF3;
 }
 
 h1 {
   font-family: 'Exo 2', sans-serif;
+  color: #EEECFE;
+}
+
+h2 {
+  color: #cdc7f8;
+}
+
+h3 {
+  color: #A59DE2;
+}
+
+h4 {
+  color: #BEB7F2;
 }

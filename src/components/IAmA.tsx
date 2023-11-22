@@ -1,11 +1,13 @@
 import { TypeAnimation } from 'react-type-animation'
+import { Wrapper } from "react-type-animation"
 import GraphemeSplitter from 'grapheme-splitter'
 
 interface Props {
+    wrapper: Wrapper;
     classyName: string;
 }
 
-export default function IAmA({ classyName }: Props) {
+export default function IAmA({ wrapper, classyName }: Props) {
     
   const splitter = new GraphemeSplitter();
     return(
@@ -25,7 +27,7 @@ export default function IAmA({ classyName }: Props) {
                 1500
                 ]}
                 className={"typewriter-effect " + classyName}
-                wrapper="h2"
+                wrapper={wrapper}
                 repeat={Infinity}
                 speed={35}
                 deletionSpeed={60}

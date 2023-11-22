@@ -11,7 +11,7 @@ interface Props {
 export default function HoverName({ wrapper, idCard, classyName }: Props) {
 
     const [name, setName] = useState("Dianneth");
-    const handleMouseOver = () => { setName("diˌʌˈnɛθ") };
+    const handleMouseOver = () => { setName("/diˌʌˈnɛθ/") };
     const handleMouseOut = () => { setName("Dianneth") };
 
     return (

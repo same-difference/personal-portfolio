@@ -11,7 +11,7 @@ export default function IntroCard() {
                     <h1 className="w-fit text-8xl tracking-wide self-center place-self-start">Dianneth</h1>
                     <h4 className="text-2xl tracking-widest self-end place-self-start">&ensp;she/her</h4>
                 </div>
-                <IAmA classyName="text-5xl w-max" wrapper="h2"/>
+                <IAmA classyName="text-5xl w-max"/>
                 <Socials classyName="mt-6" />
             </div>
             

@@ -3,10 +3,9 @@ import GraphemeSplitter from 'grapheme-splitter'
 
 interface Props {
     classyName: string;
-    wrapper: string;
 }
 
-export default function IAmA({ classyName, wrapper }: Props) {
+export default function IAmA({ classyName }: Props) {
     
   const splitter = new GraphemeSplitter();
     return(
@@ -26,7 +25,7 @@ export default function IAmA({ classyName, wrapper }: Props) {
                 1500
                 ]}
                 className={"typewriter-effect " + classyName}
-                wrapper={wrapper}
+                wrapper="h2"
                 repeat={Infinity}
                 speed={35}
                 deletionSpeed={60}

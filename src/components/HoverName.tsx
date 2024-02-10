@@ -7,7 +7,6 @@ interface Props {
     classyName: string;
 }
 
-
 export default function HoverName({ wrapper, idCard, classyName }: Props) {
 
     const [name, setName] = useState("Dianneth");

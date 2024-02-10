@@ -20,7 +20,7 @@ export default function IAmA({ wrapper, classyName }: Props) {
                 splitter={(str) => splitter.splitGraphemes(str)}
                 sequence={[
                 "I'm a Web Developer 💻",
-                1500,
+                3000,
                 "I'm a Writer 📝",
                 1500,
                 "I'm an Artist 🎨",

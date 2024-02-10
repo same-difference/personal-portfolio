@@ -5,10 +5,11 @@ interface Props {
 }
 
 export default function Nav({ classyName }: Props) {
-
+    const boop = { scale: 1.1, letterSpacing: '0.1em' };
+    
     return(
         <nav className={classyName}>
-            <motion.a whileHover={{ scale: 1.1, letterSpacing: '0.1em' }} href="#projects">---projects---</motion.a>
+            <motion.a whileHover={boop} whileFocus={boop} whileTap={boop} href="#projects">---projects---</motion.a>
         </nav>
         
     );

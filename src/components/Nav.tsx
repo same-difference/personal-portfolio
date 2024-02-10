@@ -8,7 +8,7 @@ export default function Nav({ classyName }: Props) {
 
     return(
         <nav className={classyName}>
-            <motion.a  whileHover={{scale: 1.1, "letter-spacing": "0.1em"}} href="#projects">---projects---</motion.a>
+            <motion.a whileHover={{ scale: 1.1, letterSpacing: '0.1em' }} href="#projects">---projects---</motion.a>
         </nav>
         
     );

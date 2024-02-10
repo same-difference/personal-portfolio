@@ -6,7 +6,7 @@ interface Props {
 
 export default function Socials({ classyName }: Props) {
     const boop = { scale: 1.15 };
-    const beegBoop = { scale: 2 };
+    const beegBoop = { scale: 0.75 };
     const email="mailto:dnmurillo@gmail.com";
 
     return(

@@ -12,8 +12,8 @@ export default function IntroCard() {
                     <h4 className="text-xl md:text-4xl tracking-widest self-end place-self-start">&ensp;she/her</h4>
                 </div>
                 <IAmA wrapper="h2" classyName="pt-6 md:pt-10 text-3xl md:text-5xl w-max"/>
-                <Socials classyName="mt-10 md:mt-18 md:pt-6 shrink-1 w-2/3 place-content-center" />
-                <Nav classyName="mt-8 md:mt-5 text-4xl" />
+                <Socials classyName="mt-14 md:mt-18 md:pt-6 shrink-1 w-2/3 place-content-center" />
+                <Nav classyName="mt-7 md:mt-5 text-3xl md:text-4xl" />
             </section>
     );
 }

@@ -2,9 +2,23 @@ import HoverName from "../HoverName";
 import IAmA from "../IAmA";
 import Socials from "../Socials";
 import Nav from "../Nav";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function IntroCard() {
+    
+    const location = useLocation();
+
+    useEffect(() => {
+        if(location.pathname == "/projects") {
+            document.getElementById("projects")!.scrollIntoView({behavior: "smooth"});
+            document.body.style.backgroundImage = "linear-gradient(180deg, rgba(45,18,99,1) 0%, rgba(79,35,103,1) 50%, rgba(157,84,94,1) 100%)";
+        }
+        else {
+            document.body.style.backgroundImage = "linear-gradient(180deg, rgba(45,18,99,1) 0%, rgba(79,35,103,1) 100%)";
+        }
+    }, [location]);
+
     return(
         <>
             <section className="h-screen flex flex-col justify-center items-center">

@@ -6,7 +6,6 @@
 @layer base {
   body {
     font-family: 'Text Me One', sans-serif;
-    background: rgb(45,18,99);
     background: linear-gradient(180deg, rgba(45,18,99,1) 0%, rgba(79,35,103,1) 100%);
     color: #D2CDF3;
   }

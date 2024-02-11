@@ -1,14 +1,18 @@
-import IntroCard from './IntroCard';
-import Projects from './Projects';
-import Footer from './Footer';
+import IntroCard from './pages/IntroCard';
+import Projects from './pages/Projects';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 export default function App() {
 
   return (
-    <>
-    <IntroCard />
-    <Projects />
-    <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<IntroCard />}>
+          <Route path="projects" element={<Projects />} />
+        </Route>
+      </Routes>
+      
+      
+    </BrowserRouter>
   );
 }

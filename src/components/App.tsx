@@ -8,9 +8,9 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<IntroCard />}>
-          <Route index element={<IntroCard />} />
           <Route path="projects" element={<Projects />} />
         </Route>
+        <Route path="*" element={<IntroCard />} />
       </Routes>
       
       

@@ -51,13 +51,13 @@
   }
 
   .tag {
-    background-color: #FECCC6;
+    color: #feecee;
+    background-color: #c46572;
   }
 
   .wip {
     font-family: 'Text Me One', sans-serif;
-    background-color: #9d545e;
-    color: #feecee;
+    background-color: #FECCC6;
   }
 
   footer {

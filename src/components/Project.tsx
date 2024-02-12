@@ -15,14 +15,14 @@ export default function Project({ children, name, link, pic, tags, wip }: Props)
     const beegBoop = { scale: 0.85, color: "#b04c5b" };
     
     return(
-        <div className="project pt-3 px-3 rounded-sm shadow-[#9d545e] shadow-lg">
-            <a href={link} target="_blank"><img className="pb-2 block mx-auto" src={pic} /></a>
+        <div className="project relative h-fit break-inside-avoid-column p-3 mb-6 md:mb-8 rounded-2xl shadow-[#9d545e] shadow-lg">
+            <a href={link} target="_blank"><img className="pb-2 mx-auto" src={pic} /></a>
             <a href={link} target="_blank"><motion.h2 whileHover={boop} whileFocus={boop} whileTap={beegBoop} className="project tracking-wide font-bold text-center text-lg md:text-xl pb-2">{name}</motion.h2></a>
+            { wip ? <div className="wip -mx-3 mb-3 text-center py-0.5 tracking-wider bg-clip-border">wip</div> : ""}
             <p className="mx-auto px-2 pb-6 text-justify lg:text-center">
                 {children}
             </p>
             { tags ? <Tags tags={tags}/> : ""}
-            { wip ? <div className="wip -mx-3 text-center py-0.5 tracking-wider">wip</div> : ""}
         </div>
     );
 }

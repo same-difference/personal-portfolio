@@ -35,12 +35,12 @@
   }
 
   .projects {
-    color: #feecfd;
+    color: #feecee;
   }
 
   .project {
     font-family: 'Raleway', sans-serif;
-    background-color: #FECCC6;
+    background-color: #feecee;
     color: #664758;
   }
   
@@ -50,8 +50,14 @@
     color: #9D545E;
   }
 
+  .tag {
+    background-color: #FECCC6;
+  }
+
   .wip {
-    background-color: #9D545E;
+    font-family: 'Text Me One', sans-serif;
+    background-color: #9d545e;
+    color: #feecee;
   }
 
   footer {

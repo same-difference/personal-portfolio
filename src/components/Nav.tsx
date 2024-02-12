@@ -10,7 +10,7 @@ export default function Nav({ classyName }: Props) {
 
     return(
         <nav className={classyName}>
-            <motion.a whileHover={boop} whileFocus={boop} whileTap={beegBoop}>---projects---</motion.a>
+            <motion.a whileHover={boop} whileFocus={boop} whileTap={beegBoop} id="projects-link">---projects---</motion.a>
         </nav>
         
     );

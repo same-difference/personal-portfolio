@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&family=Exo+2');
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&family=Exo+2&family=Raleway');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,7 +7,6 @@
   body {
     font-family: 'Text Me One', sans-serif;
     background: linear-gradient(180deg, rgba(45,18,99,1) 0%, rgba(79,35,103,1) 100%);
-    color: #D2CDF3;
   }
   
   h1 {
@@ -16,7 +15,7 @@
   }
   
   h2 {
-    color: #cdc7f8;
+    color: #4C2166;
   }
   
   h3 {
@@ -25,5 +24,37 @@
   
   h4 {
     color: #BEB7F2;
+  }
+
+  #projects-link {
+    color: #D2CDF3;
+  }
+
+  .typewriter-effect {
+    color: #cdc7f8;
+  }
+
+  .projects {
+    color: #feecfd;
+  }
+
+  .project {
+    font-family: 'Raleway', sans-serif;
+    background-color: #FECCC6;
+    color: #664758;
+  }
+  
+  h2.project {
+    font-family: 'Exo 2', sans-serif;
+    background-color: transparent;
+    color: #9D545E;
+  }
+
+  .wip {
+    background-color: #9D545E;
+  }
+
+  footer {
+    color: #FED5C2;
   }
 }

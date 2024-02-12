@@ -10,6 +10,7 @@ export default function App() {
         <Route path="/" element={<IntroCard />}>
           <Route path="projects" element={<Projects />} />
         </Route>
+        <Route path="/projects" element={<Projects />} />
       </Routes>
       
       

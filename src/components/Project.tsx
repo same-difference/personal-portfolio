@@ -23,7 +23,7 @@ export default function Project({ children, name, link, pic, tags, wip }: Props)
             { wip ? <div className="wip -mx-3 mb-3 text-center py-0.5 tracking-wider bg-clip-border">wip</div> : ""}
             <p className="mx-auto px-2 pb-6 text-justify lg:text-center">
                 {children}
-            </p>daskfjlhksadf
+            </p>
             { tags ? <Tags tags={tags}/> : ""}
         </div>
     );

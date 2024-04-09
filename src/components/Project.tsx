@@ -2,7 +2,7 @@ import Tags from "./Tags";
 import { motion } from "framer-motion";
 
 interface Props {
-    children: string;
+    children: React.ReactNode;
     name: string;
     link: string;
     pic: string;

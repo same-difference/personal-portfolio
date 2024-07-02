@@ -19,8 +19,8 @@ export default function Projects() {
                 <Project name="Personal Portfolio" link="https://github.com/same-difference/personal-portfolio" pic="personal_portfolio.png" tags="react typescript framer" wip={false}>
                     Yours truly, this gorgeous site.
                 </Project>
-                <Project name="The Unwilling Chef" link="https://youtu.be/ei49MkoxAWM?si=33N_Txl4dKXEyaea" pic="icons8-moon-and-stars-cute-color-96.png" tags="figma" wip={true}>
-                    A meal-prep app designed solely off user feedback.
+                <Project name="The Unwilling Chef" link="https://www.figma.com/design/tfPhmHlqGncP7OJHNhan78/Prototype?node-id=310-1619" pic="unwilling_chef.png" tags="figma ui/ux" wip={false}>
+                    A meal-prep app designed with user-centered design.
                 </Project>
             </div>
             <footer className="absolute bottom-1 text-center">Made with &lt;3 by Dianneth Murillo - Icons by <a target="_blank"  href="https://icons8.com">Icons8</a></footer>

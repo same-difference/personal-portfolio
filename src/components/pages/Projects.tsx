@@ -7,6 +7,9 @@ export default function Projects() {
         <section className="relative min-h-screen flex flex-col justify-center items-center" id="projects">
             <h1 className="projects w-fit text-4xl md:text-6xl tracking-wide self-center pt-8 mb-8 md:mb-10">Projects</h1>
             <div className="mb-20 columns-1 md:columns-2 lg:columns-3 w-2/3 xl:w-1/2 2xl:w-2/5">
+                <Project name="Meddy" link="https://devpost.com/software/meddy" pic="meddy.png" tags="react tailwind next.js" wip={false}>
+                    Meddy provides a centralized database for patient information for patients and healthcare providers alike.
+                </Project>
                 <Project name="The Lab" link="https://devpost.com/software/the-lab-hfynjw" pic="the_lab.png" tags="react redux tailwind ink.js" wip={false}>
                     A choose-your-own-adventure game built to help the player better understand {spoon_theory}.
                 </Project>

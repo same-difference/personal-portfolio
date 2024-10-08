@@ -2,16 +2,19 @@
   font-family: "Text Me One";
   src:local("TextMeOne-Regular"),
   url("./fonts/TextMeOne-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 @font-face {
   font-family: "Raleway";
   src:local("Raleway-VariableFont_wght"),
   url("./fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
 }
 @font-face {
   font-family: "Exo 2";
   src:local("Exo2-VariableFont_wght"),
   url("./fonts/Exo2-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
 }
 
 

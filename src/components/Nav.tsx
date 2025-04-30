@@ -11,7 +11,7 @@ export default function Nav({ classyName }: Props) {
     const handleHoverStart = () => {
         if (shouldReducedMotion) return;
         animate(scope.current, { 
-          y: [0, -4, 4, -4, 0] 
+          y: [0, -2, 4, -2, 0] 
         }, {
           duration: 5,
           ease: 'easeInOut',

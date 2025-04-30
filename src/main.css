@@ -54,6 +54,7 @@
   }
 
   .projects {
+    font-family: 'Text Me One', sans-serif;
     color: #feecee;
   }
 
@@ -75,7 +76,6 @@
   }
 
   .wip {
-    font-family: 'Text Me One', sans-serif;
     background-color: #FECCC6;
   }
 

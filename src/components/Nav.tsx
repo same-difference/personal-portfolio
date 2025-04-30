@@ -5,13 +5,13 @@ interface Props {
 }
 
 export default function Nav({ classyName }: Props) {
-    const boop = { scale: 1.1, letterSpacing: '0.1em' };
-    const beegBoop = { scale: 1.35, letterSpacing: '0.4em' };
+    const boop = { scale: 1.1, boxShadow: '0 0 20px 1px #b3abe2', backgroundColor: 'rgba(179, 171, 226, 0.1)' };
+    const beegBoop = { scale: 0.8, boxShadow: '0 0 20px 1px #b3abe2', backgroundColor: 'rgba(179, 171, 226, 0.1)' };
 
     return(
-        <nav className={classyName}>
-            <motion.a whileHover={boop} whileFocus={boop} whileTap={beegBoop} id="projects-link">---projects---</motion.a>
-        </nav>
+        <motion.a drag dragSnapToOrigin href="https://dnmurillo.com/projects" whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName} id="projects-link">
+            projects
+        </motion.a>
         
     );
 }

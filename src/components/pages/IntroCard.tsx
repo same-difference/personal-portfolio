@@ -2,7 +2,7 @@ import HoverName from "../HoverName";
 import IAmA from "../IAmA";
 import Socials from "../Socials";
 import Nav from "../Nav";
-import { Outlet, Link, useLocation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
 export default function IntroCard() {
@@ -29,7 +29,7 @@ export default function IntroCard() {
                 </div>
                 <IAmA wrapper="h2" classyName="pt-6 md:pt-10 text-3xl md:text-5xl w-max"/>
                 <Socials classyName="mt-14 md:mt-18 md:pt-6 shrink-1 w-2/3 place-content-center" />
-                <Link to="/projects"><Nav classyName="mt-7 md:mt-5 text-3xl md:text-4xl" /></Link>
+                <Nav classyName="border border-[#b3abe2]/50 hover:border-[#b3abe2]/10 border-solid py-0.5 px-10 rounded-full tracking-wider mt-7 md:mt-5 text-3xl md:text-4xl" />
             </section>
             <Outlet />
         </>

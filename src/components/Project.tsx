@@ -11,7 +11,7 @@ interface Props {
 }
 
 export default function Project({ children, name, link, pic, tags, wip }: Props) {
-    const boop = { scale: 1.15, color: "#b04c5b" };
+    const boop = { scale: 1.07, color: "#b04c5b" };
     const beegBoop = { scale: 0.85, color: "#b04c5b" };
     const imgboop = { scale: 1.03 };
     const imgBeegBoop = { scale: 1.07 };

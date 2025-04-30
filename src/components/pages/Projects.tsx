@@ -7,6 +7,9 @@ export default function Projects() {
         <section className="relative min-h-screen flex flex-col justify-center items-center" id="projects">
             <h1 className="projects w-fit text-4xl md:text-6xl tracking-wide self-center pt-8 mb-8 md:mb-10">Projects</h1>
             <div className="mb-20 columns-1 md:columns-2 lg:columns-3 w-2/3 xl:w-1/2 2xl:w-2/5">
+                <Project name="AdvenTour" link="https://www.youtube.com/watch?v=U2pXYz1bzd8" pic="adventour.png" tags="react-native expo postgresql supabase esp-32 arduino c++" wip="Senior Design Project">
+                    A theme park day planning app with a custom-made companion smartwatch.
+                </Project>
                 <Project name="GuitAR" link="https://devpost.com/software/guitar-o3gw19" pic="guitar.png" tags="unity grokit-core meta-xr-sdk c#" wip="Won 2nd Overall @ KnightHacks 2024">
                     An AR guitar-teaching app made for the Meta Quest 3.
                 </Project>

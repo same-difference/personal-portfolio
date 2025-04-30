@@ -1,4 +1,4 @@
-import { motion, useAnimate } from "framer-motion";
+import { motion, useAnimate, useReducedMotion } from "framer-motion";
 
 interface Props {
     classyName: string;
@@ -6,8 +6,10 @@ interface Props {
 
 export default function Nav({ classyName }: Props) {
     const [scope, animate] = useAnimate();
+    const shouldReducedMotion = useReducedMotion();
 
     const handleHoverStart = () => {
+        if (shouldReducedMotion) return;
         animate(scope.current, { 
           y: [0, -4, 4, -4, 0] 
         }, {

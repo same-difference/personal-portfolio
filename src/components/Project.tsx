@@ -11,11 +11,11 @@ interface Props {
 }
 
 export default function Project({ children, name, link, pic, tags, wip }: Props) {
-    const boop = { scale: 1.03, boxShadow: '0 0 20px 1px #bc626e' };
-    const beegBoop = { scale: 0.94, boxShadow: '0 0 20px 1px #bc626e' };
+    const boop = { scale: 1.03, boxShadow: '0 0 20px 1px rgba(254, 236, 238, 0.3)' };
+    const beegBoop = { scale: 0.94, boxShadow: '0 0 20px 1px rgb(254, 236, 238, 0.3)' };
     
     return(
-        <motion.a href={link} target="_blank" whileHover={boop} whileFocus={boop} whileTap={beegBoop} className="project block relative h-fit break-inside-avoid-column p-3 mb-6 md:mb-8 rounded-2xl shadow-[#bc626e] shadow-sm">
+        <motion.a href={link} target="_blank" whileHover={boop} whileFocus={boop} whileTap={beegBoop} className="project block relative h-fit break-inside-avoid-column p-3 mb-6 md:mb-8 rounded-2xl shadow-[rgba(254, 236, 238, 0.3)] shadow-md">
             <img className="mx-auto rounded-xl" src={pic} alt={pic} />
             <h2 className="project tracking-wide font-bold text-center text-lg md:text-xl py-2">{name}</h2>
             { wip ? <div className="wip -mx-3 mb-3 text-center py-0.5 tracking-wider bg-clip-border">{wip}</div> : ""}

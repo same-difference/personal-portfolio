@@ -29,7 +29,7 @@ export default function IntroCard() {
                 </div>
                 <IAmA wrapper="h2" classyName="pt-6 md:pt-10 text-3xl md:text-5xl w-max"/>
                 <Socials classyName="mt-14 md:mt-18 md:pt-6 shrink-1 w-2/3 place-content-center" />
-                <Nav classyName="border border-[#b3abe2]/50 hover:border-[#b3abe2]/10 border-solid py-0.5 px-10 rounded-full tracking-wider mt-7 md:mt-5 text-3xl md:text-4xl" />
+                <Nav classyName="border border-[#b3abe2]/50 hover:border-[#b3abe2]/10 border-solid py-0.5 px-10 rounded-full tracking-wider mt-9 md:mt-7 text-3xl md:text-4xl" />
             </section>
             <Outlet />
         </>

@@ -9,7 +9,7 @@ export default function Nav({ classyName }: Props) {
     const beegBoop = { scale: 0.8, boxShadow: '0 0 20px 1px #b3abe2', backgroundColor: 'rgba(179, 171, 226, 0.1)' };
 
     return(
-        <motion.a drag dragSnapToOrigin href="https://dnmurillo.com/projects" whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName} id="projects-link">
+        <motion.a href="projects" whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName} id="projects-link">
             projects
         </motion.a>
         

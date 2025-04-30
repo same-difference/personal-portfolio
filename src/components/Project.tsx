@@ -33,7 +33,7 @@ export default function Project({ children, name, link, pic, tags, wip }: Props)
     
     return(
         <motion.a href={link} target="_blank" ref={scope} onHoverStart={handleHoverStart} onHoverEnd={handleHoverEnd} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className="project block relative h-fit break-inside-avoid-column p-3 mb-6 md:mb-8 rounded-2xl shadow-[rgba(254, 236, 238, 0.3)] shadow-md">
-            <img className="w-full h-full object-cover mx-auto rounded-xl" src={pic} alt={pic} />
+            <img className="w-full h-full object-cover mx-auto rounded-xl" src={pic} alt={pic} draggable="false" />
             <h2 className="project tracking-wide font-bold text-center text-2xl md:text-2xl py-2">{name}</h2>
             { wip ? <div className="wip -mx-3 mb-3 text-center py-0.5 px-1 tracking-wider bg-clip-border">{wip}</div> : ""}
             <p className="mx-auto px-2 pb-6 text-justify lg:text-center">

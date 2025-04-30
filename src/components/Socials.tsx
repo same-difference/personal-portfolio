@@ -1,11 +1,16 @@
-import { motion } from 'framer-motion';
+import { motion, useReducedMotion } from 'framer-motion';
 
 interface Props {
     classyName: string;
 }
 
+type BoopType =
+    | { y: number[]; rotate: number[]; transition: { duration: number; ease: string; times: number[] }; scale: number }
+    | { scale: number };
+
 export default function Socials({ classyName }: Props) {
-    const boop1 = { 
+    const shouldReducedMotion = useReducedMotion();
+    let boop1: BoopType = { 
         y: [0, -3, -6, -9, -6, -3, 2],
         rotate: [4, -18, 14, -16, 19, -18, -5],
         transition: {
@@ -15,7 +20,7 @@ export default function Socials({ classyName }: Props) {
         },
         scale: 1.05
     };
-    const boop2 = { 
+    let boop2: BoopType = { 
         y: [0, -3, -6, -9, -6, -3, -3],
         rotate: [4, -12, 14, -9, 13, -8, 5],
         transition: {
@@ -25,7 +30,7 @@ export default function Socials({ classyName }: Props) {
         },
         scale: 1.05
     };
-    const boop3 = { 
+    let boop3: BoopType = { 
         y: [0, -3, -6, -9, -6, -3, -4],
         rotate: [4, -15, 11, -7, 9, -11, -3],
         transition: {
@@ -35,7 +40,7 @@ export default function Socials({ classyName }: Props) {
         },
         scale: 1.05
     };
-    const boop4 = { 
+    let boop4: BoopType = { 
         y: [0, -3, -6, -9, -6, -3, 1],
         rotate: [4, -9, 11, -12, 7, -8, 6],
         transition: {
@@ -45,6 +50,14 @@ export default function Socials({ classyName }: Props) {
         },
         scale: 1.05
     };
+    const reducedBoop = { scale: 1.05 };
+    if (shouldReducedMotion) {
+        boop1 = reducedBoop;
+        boop2 = reducedBoop;
+        boop3 = reducedBoop;
+        boop4 = reducedBoop;
+    }
+    
     const beegBoop = { scale: 0.85 };
     const email="mailto:dnmurillo@gmail.com";
 

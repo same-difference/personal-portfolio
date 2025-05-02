@@ -1,11 +1,11 @@
-import HoverName from "../HoverName";
-import IAmA from "../IAmA";
-import Socials from "../Socials";
-import Nav from "../Nav";
+import HoverName from "../ui/HoverName";
+import IAmA from "../ui/IAmA";
+import Socials from "../ui/Socials";
+import Nav from "../ui/Nav";
 import { Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
-export default function IntroCard() {
+export default function Hom() {
     
     const location = useLocation();
 

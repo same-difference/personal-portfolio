@@ -1,19 +1,20 @@
-import IntroCard from './pages/IntroCard';
+import Layout from './layouts/layout';
+import Home from './pages/Home';
 import Projects from './pages/Projects';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
 
   return (
     <>
-    <Analytics />
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<IntroCard />}>
-          <Route path="projects" element={<Projects />} />
-        </Route>
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />}>
+            <Route path="projects" element={<Projects />} />
+          </Route>
+        </Routes>
+      </Layout>
     </BrowserRouter>
     </>
   );

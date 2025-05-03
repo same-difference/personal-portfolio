@@ -1,7 +1,9 @@
 import type { Projects } from "../types";
+import Url from "../components/ui/Url";
 
 export const projects: Projects = {
     adventour: {
+        slug: "adventour",
         title: "AdvenTour",
         image: "adventour_crop.png",
         image_alt: "A pastel purple blue sky peeks between the skyline of an amusement park. There's a ferris wheel, a roller coaster, and circus tent. In the foreground: 'AdvenTour', sleek and sophisticated.",
@@ -15,6 +17,7 @@ export const projects: Projects = {
     },
 
     guitar: {
+        slug: "guitAR",
         title: "GuitAR",
         image: "guitar_crop.png",
         image_alt: "A field of white, a faint grid heading into the horizon. Overlaid is the text 'GuitAR' in black and gold, the A in GuitAR replaced with the head of an electric guitar.",
@@ -29,6 +32,7 @@ export const projects: Projects = {
     },
 
     unwillingChef: {
+        slug: "unwillingChef",
         title: "The Unwilling Chef",
         image: "unwilling_chef_crop.png",
         image_alt: "A pixel art rendition of a white tailed doe wearing one of those rainbow pinwheel hats you'd expect to find on a plucky but chubby german kid with a lollipop.",
@@ -42,6 +46,7 @@ export const projects: Projects = {
     },
 
     meddy: {
+        slug: "meddy",
         title: "Meddy",
         image: "meddy_crop.png",
         image_alt: "meddy_crop.png",
@@ -55,10 +60,15 @@ export const projects: Projects = {
     },
 
     theLab: {
+        slug: "theLab",
         title: "The Lab",
         image: "the_lab_crop.png",
         image_alt: "the_lab_crop.png",
-        description: "A choose-your-own-adventure game built to help the player better understand spoon theory.",
+        description: (
+            <>
+            A choose-your-own-adventure game built to help the player better understand <Url link="https://en.wikipedia.org/wiki/Spoon_theory">spoon theory</Url>.
+            </>
+        ),
         links: [
             { label: "Devpost", url: "https://devpost.com/software/the-lab-hfynjw" },
         ],
@@ -68,6 +78,7 @@ export const projects: Projects = {
     },
 
     hookedIn: {
+        slug: "hookedIn",
         title: "HookedIn",
         image: "hookedin_crop.png",
         image_alt: "hookedin_crop.png",
@@ -81,6 +92,7 @@ export const projects: Projects = {
     },
 
     bookReviewSite: {
+        slug: "bookReviewSite",
         title: "Book Review Site",
         image: "book_review_site_crop.png",
         image_alt: "book_review_site_crop.png",
@@ -94,6 +106,7 @@ export const projects: Projects = {
     },
     
     personalPortfolio: {
+        slug: "personalPortfolio",
         title: "Personal Portfolio",
         image: "personal_portfolio_crop.png",
         image_alt: "personal_portfolio_crop.png",

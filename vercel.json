@@ -2,8 +2,7 @@
     "rewrites": [
         {
             "source": "/resume.pdf",
-            "destination": "https://nlwkketkmbrblyud.public.blob.vercel-storage.com/murillo_dianneth_resume.pdf",
-            "permanent": true
+            "destination": "https://nlwkketkmbrblyud.public.blob.vercel-storage.com/murillo_dianneth_resume.pdf"
         },
         { "source": "/(.*)", "destination": "/" }
     ]

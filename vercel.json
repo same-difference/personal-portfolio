@@ -1,5 +1,10 @@
 {
     "rewrites": [
-        {"source": "/(.*)", "destination": "/"}
+        {
+            "source": "/resume.pdf",
+            "destination": "https://nlwkketkmbrblyud.public.blob.vercel-storage.com/murillo_dianneth_resume.pdf",
+            "permanent": true
+        },
+        { "source": "/(.*)", "destination": "/" }
     ]
 }

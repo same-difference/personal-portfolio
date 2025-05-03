@@ -66,7 +66,7 @@ export default function Socials({ classyName }: Props) {
             <motion.a whileHover={boop1} whileFocus={boop1} whileTap={beegBoop} href="https://github.com/same-difference" target="_blank"><img src="/icons/icons8-github-64.png" alt="Github Button" draggable="false" /></motion.a>
             <motion.a whileHover={boop2} whileFocus={boop2} whileTap={beegBoop} href="https://www.linkedin.com/in/dianneth-murillo/" target="_blank"><img src="/icons/icons8-linkedin-64.png" alt="LinkedIn Button" draggable="false" /></motion.a>
             <motion.a whileHover={boop3} whileFocus={boop3} whileTap={beegBoop} href={email} target="_blank"><img src="/icons/icons8-email-64.png" alt="Send Email Button" draggable="false" /></motion.a>
-            <motion.a whileHover={boop4} whileFocus={boop4} whileTap={beegBoop} href="murillo_dianneth_resume.pdf" target="_blank"><img src="/icons/icons8-resume-64.png" alt="View Resume Button" draggable="false" /></motion.a>
+            <motion.a whileHover={boop4} whileFocus={boop4} whileTap={beegBoop} href="/resume.pdf" target="_blank"><img src="/icons/icons8-resume-64.png" alt="View Resume Button" draggable="false" /></motion.a>
         </div>
     );
 }

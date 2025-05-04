@@ -27,9 +27,13 @@ export default function Nav({ classyName }: Props) {
     const beegBoop = { scale: 0.8, boxShadow: '0 0 20px 1px #b3abe2', backgroundColor: 'rgba(179, 171, 226, 0.1)' };
 
     return(
+      <div className="flex flex-row gap-4 md:gap-5">
+        <motion.a ref={scope} href="https://garden.dnmurillo.com" onHoverStart={handleHoverStart} onHoverEnd={handleHoverEnd} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName} id="projects-link">
+            garden
+        </motion.a>
         <motion.a ref={scope} href="projects" onHoverStart={handleHoverStart} onHoverEnd={handleHoverEnd} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName} id="projects-link">
             projects
         </motion.a>
-        
+      </div>
     );
 }

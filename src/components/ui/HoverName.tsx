@@ -25,6 +25,12 @@ export default function HoverName({ classyName }: Props) {
             setIsHovered(false);
             setJustHovered(false);
         }}
+        onClick={() => {
+            setJustHovered(true);
+            setTimeout(() => {
+              setJustHovered(false);
+            }, 500);
+          }}
       >
         <span className={`z-10 relative text-[#EEECFE] ${isHovered ? 'drop-shadow-[0_0_4px_rgba(238,236,254,0.2)] drop-shadow-[0_0_8px_rgba(238,236,254,0.2)]' : ''}`}>
         <span>

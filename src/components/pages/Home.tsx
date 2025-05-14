@@ -5,7 +5,7 @@ import Nav from "../ui/Nav";
 import { Outlet, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
-export default function Hom() {
+export default function Home() {
     
     const location = useLocation();
 
@@ -27,9 +27,9 @@ export default function Hom() {
                     <HoverName classyName="w-fit text-6xl md:text-9xl tracking-wide self-center place-self-start"/>
                     <h4 className="text-xl md:text-4xl tracking-widest self-end place-self-start">&ensp;she/her</h4>
                 </div>
-                <IAmA wrapper="h2" classyName="pt-6 md:pt-10 text-3xl md:text-5xl w-max"/>
+                <IAmA wrapper="h2" classyName="pt-6 md:pt-10 text-3xl md:text-5xl w-max text-[#cdc7f8]"/>
                 <Socials classyName="mt-14 md:mt-18 md:pt-6 shrink-1 w-2/3 place-content-center" />
-                <Nav classyName="border border-[#b3abe2]/50 hover:border-[#b3abe2]/10 border-solid py-0.5 px-10 rounded-full tracking-wider mt-9 md:mt-7 text-2xl md:text-4xl" />
+                <Nav classyName="border border-[#b3abe2]/50 hover:border-[#b3abe2]/10 border-solid py-0.5 px-10 rounded-full tracking-wider mt-9 md:mt-7 text-2xl md:text-4xl text-[#D2CDF3]" />
             </section>
             <Outlet />
         </>

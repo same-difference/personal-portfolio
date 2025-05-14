@@ -28,10 +28,10 @@ export default function Nav({ classyName }: Props) {
 
     return(
       <div className="flex flex-row gap-4 md:gap-5">
-        <motion.a ref={scope} href="https://garden.dnmurillo.com" onHoverStart={handleHoverStart} onHoverEnd={handleHoverEnd} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName} id="projects-link">
+        <motion.a ref={scope} href="https://garden.dnmurillo.com" onHoverStart={handleHoverStart} onHoverEnd={handleHoverEnd} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName}>
             garden
         </motion.a>
-        <motion.a ref={scope} href="projects" onHoverStart={handleHoverStart} onHoverEnd={handleHoverEnd} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName} id="projects-link">
+        <motion.a ref={scope} href="projects" onHoverStart={handleHoverStart} onHoverEnd={handleHoverEnd} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName}>
             projects
         </motion.a>
       </div>

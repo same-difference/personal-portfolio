@@ -13,7 +13,7 @@ export default function IAmA({ wrapper, classyName }: Props) {
     return(
         <>
             <div className="sr-only">
-                I'm a Web Developer, Writer, and Artist
+                I'm a Developer, Writer, and Artist
             </div>
             <TypeAnimation
                 aria-hidden="true"

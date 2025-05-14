@@ -34,7 +34,9 @@ export default function Project({ project, version }: Props) {
     
     return(
         <motion.a href={project.links[0].url} target="_blank" ref={scope} onHoverStart={handleHoverStart} onHoverEnd={handleHoverEnd} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className="project block relative h-fit break-inside-avoid-column p-3 mb-6 md:mb-8 rounded-2xl shadow-[rgba(254, 236, 238, 0.3)] shadow-md">
-            <img className="w-full h-full object-cover mx-auto rounded-xl" src={`/thumbnails/${project.image}`} alt={project.image_alt} draggable="false" />
+            <div className="-mt-3 -mx-3 rounded-t-2xl overflow-hidden">
+            <img className="w-full h-auto object-cover" src={`/thumbnails/${project.image}`} alt={project.image_alt} draggable="false" />
+            </div>
             <h2 className="project tracking-wide font-bold text-center text-2xl md:text-2xl py-2">{project.title}</h2>
             { project.feature_text ? <div className="wip -mx-3 mb-3 text-center py-0.5 px-1 tracking-wider bg-clip-border">{project.feature_text}</div> : ""}
             <p className="mx-auto px-2 pb-6 text-justify lg:text-center">

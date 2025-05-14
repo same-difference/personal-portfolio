@@ -25,7 +25,6 @@
 @layer base {
   body {
     font-family: 'Text Me One', sans-serif;
-    background: linear-gradient(180deg, rgba(45,18,99,1) 0%, rgba(79,35,103,1) 100%);
   }
   
   h1 {
@@ -44,14 +43,12 @@
     color: #BEB7F2;
   }
 
-  #projects-link {
-    color: #D2CDF3;
+  footer {
+    color: #FED5C2;
   }
+}
 
-  .typewriter-effect {
-    color: #cdc7f8;
-  }
-
+@layer components {
   .projects {
     font-family: 'Text Me One', sans-serif;
     color: #feecee;
@@ -76,9 +73,5 @@
 
   .wip {
     background-color: #FECCC6;
-  }
-
-  footer {
-    color: #FED5C2;
   }
 }

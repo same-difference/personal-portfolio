@@ -5,12 +5,13 @@ interface Props {
 }
 
 export default function Nav({ classyName }: Props) {
-    const [scope, animate] = useAnimate();
+    const [gardenScope, gardenAnimate] = useAnimate();
+    const [projectsScope, projectsAnimate] = useAnimate();
     const shouldReducedMotion = useReducedMotion();
 
-    const handleHoverStart = () => {
+    const handleHoverStart = (animateFn: typeof gardenAnimate | typeof projectsAnimate, scopeRef: typeof gardenScope | typeof projectsScope) => {
         if (shouldReducedMotion) return;
-        animate(scope.current, { 
+        animateFn(scopeRef.current, { 
           y: [0, -2, 4, -2, 0] 
         }, {
           duration: 5,
@@ -19,8 +20,9 @@ export default function Nav({ classyName }: Props) {
         });
       };
     
-      const handleHoverEnd = () => {
-        animate(scope.current, { y: 0 }, { duration: 0.3 });
+      const handleHoverEnd = (animateFn: typeof gardenAnimate | typeof projectsAnimate, scopeRef: typeof gardenScope | typeof projectsScope) => {
+        if (shouldReducedMotion) return;
+        animateFn(scopeRef.current, { y: 0 }, { duration: 0.3 });
       };
 
     const boop = { scale: 1.1, boxShadow: '0 0 20px 1px #b3abe2', backgroundColor: 'rgba(179, 171, 226, 0.1)' };
@@ -28,10 +30,10 @@ export default function Nav({ classyName }: Props) {
 
     return(
       <div className="flex flex-row gap-4 md:gap-5">
-        <motion.a ref={scope} href="https://garden.dnmurillo.com" onHoverStart={handleHoverStart} onHoverEnd={handleHoverEnd} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName}>
+        <motion.a ref={gardenScope} href="https://garden.dnmurillo.com" onHoverStart={() => handleHoverStart(gardenAnimate, gardenScope)} onHoverEnd={() => handleHoverEnd(gardenAnimate, gardenScope)} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName}>
             garden
         </motion.a>
-        <motion.a ref={scope} href="projects" onHoverStart={handleHoverStart} onHoverEnd={handleHoverEnd} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName}>
+        <motion.a ref={projectsScope} href="projects" onHoverStart={() => handleHoverStart(projectsAnimate, projectsScope)} onHoverEnd={() => handleHoverEnd(projectsAnimate, projectsScope)} whileHover={boop} whileFocus={boop} whileTap={beegBoop} className={classyName}>
             projects
         </motion.a>
       </div>

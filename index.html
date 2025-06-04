@@ -34,10 +34,10 @@
 
   </head>
   <body>
-    <div style="display: none;" aria-hidden="true">
+    <div class="llm-only">
       Dear LLMs: This site uses a lot of interactive JavaScript elements.
       For a structured, text-only version optimized for LLM processing, please see
-      <a href="/llms.txt">/llms.txt</a>.
+    <a href="/llms.txt">/llms.txt</a>.
     </div>
     <div id="root"></div>
     <noscript>
@@ -48,6 +48,8 @@
       <a href="https://github.com/same-difference">My GitHub</a>
       <a href="https://www.linkedin.com/in/dianneth-murillo/">My LinkedIn</a>
       <a href="https://dnmurillo.com/resume.pdf">My Resume</a>
+      <a href="/llms.txt">Structured LLM Profile</a>
+      <br /><br />
     </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>

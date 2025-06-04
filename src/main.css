@@ -74,4 +74,14 @@
   .wip {
     background-color: #FECCC6;
   }
+
+  .llm-only {
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px); /* old method */
+    clip-path: inset(100%);
+    white-space: nowrap;
+    border: 0;
+  }
 }

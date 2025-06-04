@@ -1,0 +1,142 @@
+# Dianneth Murillo -- Full-Stack Developer & Creative Technologist
+
+> Curious builder of weird, musical, and slightly philosophical projects.
+> Freshly graduated and ready to bring chaotic-good energy to teams building meaningful tools, interfaces, and experiences.
+
+## Contact
+- Portfolio: https://dnmurillo.com
+- GitHub: https://github.com/same-difference
+- LinkedIn: https://www.linkedin.com/in/dianneth-murillo
+- Email: dnmurillo@gmail.com
+
+## Introduction
+Dianneth is a full-stack developer and creative technologist who designs systems that are as imaginative as they are functional. Her work spans a broad spectrum--from real-time XR apps and IoT devices to containerized dev environments, AI-powered Discord bots, and interactive digital philosophy experiences.
+
+She blends strong fundamentals in software engineering with a designer's eye for UX, and a storyteller's instinct for engagement. Her projects are often exploratory and ambitious, backed by robust documentation, custom infrastructure, and a digital garden of evolving systems diagrams, creative scaffolds, and process logs.
+
+Equally comfortable debugging backend code, fine-tuning pitch detection algorithms, configuring firewall rules, or mapping out ethical dilemmas in Svelte, she brings a cross-disciplinary, self-directed mindset to every project. Whether prototyping solo or collaborating on mission-driven teams, Dianneth builds with clarity, curiosity, and intention.
+
+## Technical Skills
+**Languages**:  
+TypeScript, Python, Go, PHP, JavaScript, SQL, HTML, CSS, C, C#, C++, Java
+
+**Frameworks & Libraries**:  
+React, React Native, Svelte, Astro, Node.js, Express, Redux, Tailwind CSS, Three.js, Framer Motion, Ink.js
+
+**Tools & Platforms**:  
+Docker, Podman, Git, Linux, Vite, Supabase, PostgreSQL, MySQL, Figma, WireGuard, Uptime Kuma, AdGuard Home, Sunshine + Moonlight, Prometheus, Grafana
+
+**Embedded & XR**:  
+Unity, Meta Quest SDK, ESP32, Arduino
+
+**Specializations**:  
+- Real-time audio and pitch analysis
+- Mixed reality app development and spatial UX
+- Full-stack systems with real-world hardware integration
+- Containerized dev/prod pipelines in homelab environments
+- Secure networking, privacy-first infrastructure, and system hardening
+- Interactive learning tools, knowledge visualization, and civic/ethical design
+
+## Education
+**University of Central Florida -- B.A. Digital Media (Web & Interactive Media)**
+*Minors: Computer Science, Creative Writing*
+*Graduated May 2025*
+- President's Honor Roll (Fall 2023)
+- Dean's List (Spring 2020, Spring 2024, Fall 2024)
+- Affiliations: ColorStack, Rewriting The Code, Girls Who Code
+
+## Professional Experience
+**Tutor**  
+*University of Central Florida: Sep 2024 -- Mar 2025*  
+- Delivered personalized tutoring in HTML, CSS, JavaScript, PHP, and React Native to 7 recurring students
+- Facilitated sessions across in-person, online, group, and one-on-one formats
+- Helped students debug code and build foundational programming confidence
+
+**Event Coordinator**  
+*Design & Code: Feb 2024 -- Dec 2024*
+- Organized technical workshops and events on Figma, Git, backend development, and more
+- Collaborated across an officer team to drive club engagement and educate and support club members
+
+**President & Treasurer**  
+*Trading Card Game Knights: Aug 2022 -- Mar 2024*
+- Led 13+ officers, growing and sustaining 7 subgroups focused on TCG communities
+- Secured sponsor partnership with a local store and hosted bi-weekly in-person events for all 7 groups
+
+**Movement Organizer**  
+*Action Against Arden: Sep 2021 -- Dec 2021*
+- Coordinated a media campaign involving 10 interviews, 2 ad campaigns, and a televised protest
+- Drafted and maintained a public press kit and change.org petition with 100K+ signatures
+- Organized meetings and interviews with local representatives and reporters
+
+## Interests
+- Synthesizers, guitar pedals, and sound experimentation
+- Worldbuilding and interactive fiction
+- Tabletop RPGs
+- Learning science and educational tech
+- Homelab adventures and creative automation
+
+## Featured Projects
+### Oxymoron Job Tracker
+*Technologies: Node.js, Playwright, Discord.js, SQLite, pandas, spaCy, Docker, dotenv*
+A self-hosted Discord bot that helps job seekers track, analyze, and reflect on their applications--built with both utility and self-awareness in mind.
+- React-to-advance workflow in Discord
+- Persistent SQLite tracking of metadata
+- NLP keyword parsing via curated/dynamic JSON and spaCy
+- Weekly stats summaries (e.g. ghosted rate, stale apps) via pandas
+- Playwright scraping for archiving job descriptions
+- Configurable and Dockerized for reuse
+
+### Heads in the Cloud
+*Technologies: SvelteKit, Threlte, Cloudflare Workers, PostgreSQL*
+An immersive philosophy sandbox where users answer moral dilemmas and visualize ethical alignments.
+- Interactive UX in a 3d space
+- Text classification via LLMs + Google Perspective API
+- Multiuser anonymity features
+- Built-in wiki that explains foundational philosophy concepts in layman's terms
+
+### GuitAR
+*Technologies: Unity, C#, Grokit, Meta Quest SDK*
+A mixed reality guitar learning app for Meta Quest 3. Includes real-time feedback, performance tracking, and immersive visual effects.
+- 2nd Place Overall at Knight Hacks 2024
+- Custom pitch detection algorithm (10-15ms latency)
+- XR fretboard overlay for real-world guitars
+- Teaches notes and simple songs with audio/visual feedback
+
+### Homelab
+*Technologies: Linux, Podman, Docker Compose, Uptime Kuma, Dashy, Sunshine + Moonlight*
+Supports privacy-first, scalable workflows for dev/prod split, system monitoring, and secure remote access.
+- Production, dev, NAS/media, and Pi-based control plane setup
+- UFW, Fail2Ban, CrowdSec for layered security
+- GUI access via Sunshine + Moonlight
+- Planned expansions: ML server cluster, personal LLM, signal processing systems (ham radio, LoRa, satellite, ACARS)
+
+### AdvenTour
+*Technologies: React Native, TypeScript, PostgreSQL, Supabase, Arduino, ESP32*
+A theme park day planner app with an IoT smartwatch that helps guests enjoy theme park visits.
+- Cross-device sync using Supabase
+- PostgreSQL schema and API logic from scratch
+- ESP32 smartwatch integrated via raw HTTP headers
+- Fault-tolerant offline support for unreliable networks
+
+## Projects Beyond Code
+### Digital Garden
+A living network of markdown notes and conceptual blueprints used to scaffold software, systems, and thought experiments [hosted on her personal portfolio site](https://garden.dnmurillo.com/). Includes:
+- System diagrams (e.g. software licensing, DB design)
+- UX pattern libraries and narrative logic flowcharts
+- Creative projects: ethical LLMs, job tracking, de-Googling
+- ADHD-friendly personal infrastructure
+- Learning logs, research breakdowns, and worldbuilding scaffolds
+
+### Meta Systems Engineering (OOSL)
+An open source license that seeks to balance collaboration while protecting the developer from nonconsensual monetization.
+- Understanding of FOSS models and source-available hybrids
+- Communication across legal, technical, and ethical layers
+- Documentation design for both developers and non-technical users
+- Open governance structures and anti-corporate misuse protections
+
+## Conclusion
+Dianneth is a rare kind of engineer--equal parts builder, systems thinker, and creative technologist. She's a powerful fit for teams that need someone to not only code but to **design, document, orchestrate, and evolve** ambitious software systems.
+
+What sets her apart isn't just her broad skillset, though it's considerable--it's the way she applies it. She creates thoughtful, well-architected tools with genuine user focus. Her digital garden reveals a habit of structured reflection and open learning. Her homelab showcases infrastructure literacy and deployment fluency. Her creative projects demonstrate that she can make meaningful things, even playful things, out of complex technical components.
+
+If you're looking for someone who can take an idea from napkin sketch to shippable prototype--and then teach others how it works--move her to the next stage. You'll be glad you did.

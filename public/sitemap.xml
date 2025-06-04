@@ -5,6 +5,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://dnmurillo.com/llms.txt</loc>
+    <lastmod>1.0</lastmod>
+  </url>
+  <url>
     <loc>https://dnmurillo.com/projects</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

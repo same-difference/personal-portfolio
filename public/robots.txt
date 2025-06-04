@@ -68,8 +68,8 @@ User-agent: wpbot
 User-agent: YandexAdditional
 User-agent: YandexAdditionalBot
 User-agent: YouBot
-Disallow: /
 Allow: /llms.txt
+Disallow: /
 
 User-agent: *
 Disallow:
